@@ -1,0 +1,64 @@
+$primary-color: #d1eef1;
+$secondary-color: #22d1ee;
+$muted-color: rgb(107, 107, 107);
+$i-color: rgba(64, 182, 146, 0.308);
+#signup {
+  background-image: linear-gradient(to right, $primary-color, $secondary-color);
+  padding-top: 5%;
+  margin-bottom: 5%;
+}
+.left-signup {
+  margin: auto;
+  width: 25rem;
+  label,
+  input {
+    margin-right: auto;
+    margin-bottom: 5px;
+    display: block;
+    color: $muted-color;
+  }
+  input {
+    border-left-width: 0;
+    border-radius: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    padding-left: 0;
+    padding-right: 0;
+    height: 25px;
+    transition: 0.3s;
+  }
+  input:focus {
+    box-shadow: none;
+    transform: translateY(-5px);
+  }
+  .sign-up-btn {
+    padding: 5px 10px;
+    display: block;
+    margin-left: auto;
+    margin-bottom: 10px;
+  }
+  .sign-up-btn:hover {
+    transform: none;
+  }
+  .card-body {
+    padding: 32px;
+  }
+  .sign-up-card {
+    border-radius: 10px;
+    transition: 0.3s;
+  }
+  .sign-up-card:hover {
+    transform: translateY(-3px);
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  }
+}
+.right-signup {
+  margin: auto;
+  i {
+    text-align: center;
+    border: none;
+    padding: 4px;
+    background-color: $i-color;
+    border-radius: 50%;
+  }
+}

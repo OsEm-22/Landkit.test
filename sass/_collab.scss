@@ -1,0 +1,51 @@
+$primary-color: #d1eef1;
+$secondary-color: #22d1ee;
+$muted-color: rgb(70, 70, 70);
+
+#collab {
+  background-image: linear-gradient(to right, $primary-color, $secondary-color);
+  padding-top: 1%;
+  margin-bottom: 0;
+}
+.logos {
+  display: flex;
+  height: 100px;
+  align-items: center;
+}
+
+@mixin collab-logo {
+  width: 100px;
+  display: block;
+  margin: auto;
+  margin-bottom: 3px;
+  opacity: 50%;
+}
+.airbnb-logo {
+  @include collab-logo;
+  margin-top: 0;
+}
+.coinbase-logo {
+  @include collab-logo;
+  margin-top: -8px;
+}
+.dribble-logo {
+  @include collab-logo;
+  margin-top: -15px;
+}
+.instagram-logo {
+  @include collab-logo;
+  margin-top: 10px;
+}
+.netflix-logo {
+  @include collab-logo;
+  margin-top: -5px;
+}
+.pinterest-logo {
+  @include collab-logo;
+  margin-top: -5px;
+}
+#collab {
+  hr {
+    margin-bottom: 30px;
+  }
+}

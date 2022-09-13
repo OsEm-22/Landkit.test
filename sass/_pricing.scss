@@ -1,0 +1,36 @@
+#pricing {
+  .card-btn {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    padding: 10px 0;
+    margin: 0%;
+    border: none;
+    width: 100% !important;
+  }
+}
+.badge-1 {
+  width: 68.89px;
+  height: 20px;
+  margin: 20px auto;
+}
+.badge-2 {
+  width: 86px;
+  height: 20px;
+  margin: 20px auto;
+}
+.first-card {
+  .card {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+}
+.second-card {
+  .card {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+  p {
+    padding: 30% 5%;
+  }
+}
+

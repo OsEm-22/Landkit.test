@@ -1,0 +1,19 @@
+$primary-color: #d1eef1;
+$secondary-color: #22d1ee;
+$muted-color: rgb(107, 107, 107);
+
+#achivements {
+  .container {
+    img {
+      background-color: #e1f1f35d;
+      border: none;
+      border-radius: 5px;
+      padding: 30px;
+    }
+  }
+  .alt-row {
+    p {
+      font-size: 15px;
+    }
+  }
+}

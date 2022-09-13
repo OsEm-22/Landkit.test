@@ -1,0 +1,45 @@
+$primary-color: #d1eef1;
+$secondary-color: #22d1ee;
+
+#navbarNav {
+  justify-content: end;
+}
+.navbar {
+  background-image: linear-gradient(to right, $primary-color, $secondary-color);
+  margin-bottom: 6.5%;
+}
+.navbar-brand {
+  border-radius: 50% / 100%;
+  font-weight: bolder;
+  transition: 0.5s;
+  padding: 10px 15px;
+}
+.navbar-brand:hover {
+  color: #fff;
+  background-image: linear-gradient(to right, $secondary-color, $primary-color);
+  border-radius: 50% / 100%;
+}
+.navbar-toggler {
+  background-image: linear-gradient(to right, $secondary-color, $primary-color);
+  border: none;
+}
+.navbar-toggler:hover {
+  background-image: linear-gradient(to right, $secondary-color, $primary-color);
+}
+.navbar-toggler:focus {
+  display: none;
+}
+.nav-item {
+  margin-left: auto;
+  transition: 0.5s;
+  border-radius: 50% / 100%;
+}
+.nav-item:hover {
+  background-image: linear-gradient(to right, $secondary-color, $primary-color);
+  border-radius: 50% / 100%;
+}
+.nav-link {
+  font-weight: 700px;
+  color: #fff;
+  transition: 0.5s;
+}

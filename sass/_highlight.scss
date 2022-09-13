@@ -1,0 +1,48 @@
+$primary-color: #d1eef1;
+$secondary-color: #22d1ee;
+$muted-color: rgb(70, 70, 70);
+
+#highlight {
+  background-image: linear-gradient(to right, $primary-color, $secondary-color);
+  padding-top: 5%;
+  margin-bottom: 5%;
+}
+#highlight h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+@mixin icons {
+  width: 35px;
+  display: block;
+  margin-bottom: 15px;
+}
+
+.toggle-icon {
+  @include icons;
+}
+.control-icon {
+  @include icons;
+}
+.coding-icon {
+  @include icons;
+}
+
+.first-col,
+.second-col,
+.third-col {
+  margin: auto;
+
+  h3 {
+    font-weight: 400;
+  }
+  p {
+    color: $muted-color;
+  }
+}
+.third-col {
+  position: relative;
+  top: 4px;
+  p {
+    margin-bottom: 0;
+  }
+}
